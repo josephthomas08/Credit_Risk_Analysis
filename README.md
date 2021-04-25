@@ -218,7 +218,7 @@ For all three algorithms, the following have been completed:
 <img width="525" alt="D3 2 4 Key results " src="https://user-images.githubusercontent.com/75267605/116012527-f113a100-a5f8-11eb-8baa-a5fe2380b30a.png">
 
 
-## Deliverable 4: A Written Report on the Credit Risk Analysis
+# Deliverable 4: A Written Report on the Credit Risk Analysis
 
 
 
