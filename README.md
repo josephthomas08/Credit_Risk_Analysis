@@ -29,15 +29,11 @@ For all three algorithms, the following have been completed:
 <img width="917" alt="D1 1 3 MODULE 17" src="https://user-images.githubusercontent.com/75267605/116010459-0aaeeb80-a5ed-11eb-8de5-65340e5f9737.png">
 
 
-### D1.1.4 Summary of key results 
+### D1.1.4 Summary of key results - Random Oversampler 
 
-1. Balance Accuracy score for Random Oversampler is .65 
-2. Classification Report 
+<img width="449" alt="D1 1 4 key results " src="https://user-images.githubusercontent.com/75267605/116011171-a93d4b80-a5f1-11eb-8639-65525295ae6c.png">
 
-            Precision           Recall
-High Risk       .01               .63
-Low Risk       1.00               .66
-Avg/Total      0.99               .66
+
 
 
 
@@ -65,15 +61,12 @@ Avg/Total      0.99               .66
 
 
 
-### D1.2.4 Summary of key results 
+### D1.2.4 Summary of key results -Smote Oversampling 
 
-1. Balance Accuracy score for Random Oversampler is .61 
-2. Classification Report 
+<img width="436" alt="D1 2 4 Key results " src="https://user-images.githubusercontent.com/75267605/116011176-ae01ff80-a5f1-11eb-9ec2-86b53a15394d.png">
 
-            Precision           Recall
-High Risk       .01               .55
-Low Risk       1.00               .66
-Avg/Total      0.99               .66
+
+
 
 
 
@@ -103,15 +96,12 @@ Avg/Total      0.99               .66
 
 
 
-### D1.3.4 Summary of key results 
+### D1.3.4 Summary of key results- Undersampling  
 
-1. Balance Accuracy score for Random Oversampler is .51 
-2. Classification Report 
+<img width="424" alt="D1 3 4 key results " src="https://user-images.githubusercontent.com/75267605/116011181-b2c6b380-a5f1-11eb-8cb6-a7b4f10cbcab.png">
 
-            Precision           Recall
-High Risk       .01               .59
-Low Risk       1.00               .43
-Avg/Total      0.99               .44
+
+
 ## D1.4 Combinational 
 
 
@@ -140,15 +130,12 @@ Avg/Total      0.99               .44
 
 
 
-### D1.4.4 Summary of key results 
+### D1.4.4 Summary of key results - Combinational
 
-1. Balance Accuracy score for Random Oversampler is .65 
-2. Classification Report 
+<img width="461" alt="D1 4 4 key results " src="https://user-images.githubusercontent.com/75267605/116011185-b9552b00-a5f1-11eb-8772-32e833d0e9cd.png">
 
-            Precision           Recall
-High Risk       .01               .75
-Low Risk       1.00               .56
-Avg/Total      0.99               .56
+
+
 
 Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
