@@ -109,16 +109,16 @@ For all three algorithms, the following have been completed:
 
 
 
-### D1.4 Combinational 
+### D2.1 Combinational - Smoteein Algorith to predict credit risk 
 
 
-#### D1.4.1 Accuracy Score 
+#### D2.1.1 Accuracy Score 
 
 <img width="624" alt="D1 4 1 Module 17" src="https://user-images.githubusercontent.com/75267605/116010948-1b149580-a5f0-11eb-9eb0-897ee63039ae.png">
 
 
 
-#### D1.4.2 Confusion Matrix
+#### D2.1.2 Confusion Matrix
 
 
 <img width="1109" alt="D1 4 2 Module 17" src="https://user-images.githubusercontent.com/75267605/116010950-1f40b300-a5f0-11eb-94a8-7186486b9e43.png">
@@ -126,7 +126,7 @@ For all three algorithms, the following have been completed:
 
 
 
-#### D1.4.3 Imbalanced classification 
+#### D2.1.3 Imbalanced classification 
 
 
 
@@ -137,13 +137,103 @@ For all three algorithms, the following have been completed:
 
 
 
-#### D1.4.4 Summary of key results - Combinational
+#### D2.1.4 Summary of key results - Combinational
 
 <img width="461" alt="D1 4 4 key results " src="https://user-images.githubusercontent.com/75267605/116011185-b9552b00-a5f1-11eb-8772-32e833d0e9cd.png">
 
 
 
 
-Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
-Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-Deliverable 4: A Written Report on the Credit Risk Analysis (README.md)
+## Deliverable 3.1.0  Balanced Random Forest classifier 
+
+
+
+#### D3.1.1 Accuracy score 
+
+<img width="582" alt="D3 1 1 Module 17" src="https://user-images.githubusercontent.com/75267605/116012096-79dd0d80-a5f6-11eb-9f11-97f85b3878b9.png">
+
+
+#### D3.1.2 Confusion matrix 
+
+
+
+<img width="1100" alt="D3 1 2 Module 17" src="https://user-images.githubusercontent.com/75267605/116012100-806b8500-a5f6-11eb-924a-cc18761e97d9.png">
+
+
+
+
+#### D3.1.3 Imbalanced classification  
+
+
+
+
+<img width="871" alt="D3 1 3 Module 17" src="https://user-images.githubusercontent.com/75267605/116012103-86f9fc80-a5f6-11eb-966b-21a4ccd1848c.png">
+
+
+
+
+#### D3.1.4 Key results 
+
+
+
+
+<img width="513" alt="D3 1 4 key results " src="https://user-images.githubusercontent.com/75267605/116012525-ece78380-a5f8-11eb-9796-fa2b9300b4c4.png">
+
+
+
+##  D3.2.0 Easy Ensemble AdaBoost Classifier
+
+
+#### D3.2.1 Accuracy score 
+
+<img width="657" alt="D3 2 1 Module 17" src="https://user-images.githubusercontent.com/75267605/116012222-4b136700-a5f7-11eb-9986-5b265006b9d7.png">
+
+
+
+
+
+#### D3.2.2 Confusion matrix 
+
+<img width="1106" alt="D3 2 2 Module 17" src="https://user-images.githubusercontent.com/75267605/116012225-523a7500-a5f7-11eb-8471-09170010a2a7.png">
+
+
+
+
+
+
+#### D3.2.3 Imbalanced classification  
+
+
+
+<img width="934" alt="D3 2 3 Module 17" src="https://user-images.githubusercontent.com/75267605/116012232-5e263700-a5f7-11eb-9d41-201e733098cb.png">
+
+
+
+
+#### D3.2.4 Key results 
+
+
+
+
+<img width="525" alt="D3 2 4 Key results " src="https://user-images.githubusercontent.com/75267605/116012527-f113a100-a5f8-11eb-8baa-a5fe2380b30a.png">
+
+
+## Deliverable 4: A Written Report on the Credit Risk Analysis
+
+
+
+# SUMMARY
+
+In the four models we engaged in we undersampled, oversampled and additionaly used combinational approach to determine and evaluate the best model possible for the provided data to predict which loans could be of highest risk.
+
+The results above shows that there is hardly any difference between all the four  techniques and these models are good in precision rates of Low Risk loans.
+
+Alternatively when we apply the Machine Learning models it reduces bias (Random Forest Classifier and Easy Ensemble-Adaboost), and we see that the score improves for all the parameters.
+
+Another interesting fact which has evolved from all these models is that the  dataset provided  has very less number of False Negatives especially in the last model (Adaboost) which explains the higher Recall score of High Risk Loans in this model.
+
+## Recommendation for the Data set provided
+
+For the data set provided we can visualize a good balance of recall and precision for the Adaboost model where recall score is high and F1 score is .97. 
+The precision score for all models is seen to be almost same but the higher recall score for high risk loans enable us to go forward with Adaboost model.
+
